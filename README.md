@@ -1,6 +1,6 @@
 [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg?style=for-the-badge)](https://opensource.org/licenses/BSD-3-Clause)   ![Repo-Created-on: 6th-Jul-2023](https://img.shields.io/badge/Repo_Created_on-6th_Jul_2023-blue.svg?style=for-the-badge)     
 
-<img src="https://img.shields.io/badge/-HTML-blue?style=for-the-badge&logo=html5&logoColor=white" height="30">   <img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge&logo=css3&logoColor=white" height="30">   <img src="https://img.shields.io/badge/-JavaScript-blue?style=for-the-badge&logo=javascript&logoColor=white" height="30">   <img src="https://img.shields.io/github/repo-size/DeepthiTabithaBennet/WebTech?color=blue&style=for-the-badge" height="30">
+<img src="https://img.shields.io/badge/-HTML-blue?style=for-the-badge&logo=html5&logoColor=white" height="30">   <img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge&logo=css3&logoColor=white" height="30">   <img src="https://img.shields.io/badge/-JavaScript-blue?style=for-the-badge&logo=javascript&logoColor=white" height="30">   <img src="https://img.shields.io/badge/-Java-blue?style=for-the-badge&logo=java&logoColor=white" height="30">   <img src="https://img.shields.io/github/repo-size/DeepthiTabithaBennet/WebTech?color=blue&style=for-the-badge" height="30">
 
 ## WebTech
 
@@ -52,11 +52,11 @@ _(Click to Expand)_
 <details>
 <summary> Alarm Clock </summary> 
 <p> 
-
-  * Project Folder - [AlarmClock](https://github.com/DeepthiTabithaBennet/WebTech/tree/main/AlarmClock)
  
   * Program Files - [index.html](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/AlarmClock/index.html), [styles.css](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/AlarmClock/styles.css), [main.js](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/AlarmClock/main.js)
 
+  * Project Folder - [AlarmClock](https://github.com/DeepthiTabithaBennet/WebTech/tree/main/AlarmClock)
+    
  </p>
 </details>
 
@@ -104,12 +104,30 @@ _(Click to Expand)_
 
 [//]: # (---------------------------------------------------------------------------------------------)
 
-#### 5. EXCEPTION HANDLING
+#### 6. Jakarta Server Pages (JSP)
+_(Click to Expand)_
 
-  * Division by Zero - [DivByZero.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/DivByZero.java)
-  * Customized Error Message - [TestCustomException.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/TestCustomException.java)
-  * Array Index Out of Bounds - [ArrayIndex.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/ArrayIndex.java)
+<details>
+<summary> Billing System </summary>
+<p> 
 
+  * Program Files - [index.html](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JSP_BillDiscount/build/web/index.html), [discount.jsp](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JSP_BillDiscount/build/web/discount.jsp), [calc.jsp](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JSP_BillDiscount/build/web/calc.jsp)
+ 
+  * Project Folder - [JSP_BillDiscount](https://github.com/DeepthiTabithaBennet/WebTech/tree/main/JSP_BillDiscount)
+
+ </p>
+</details>
+
+<details>
+<summary> Fibonacci </summary>
+<p> 
+
+  * Program Files - [index.html](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JSP_Fibonacci/build/web/index.html), [Factorial.jsp](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JSP_Fibonacci/build/web/Factorial.jsp)
+ 
+  * Project Folder - [JSP_Fibonacci](https://github.com/DeepthiTabithaBennet/WebTech/tree/main/JSP_Fibonacci)
+
+ </p>
+</details>
 -----
 
 [//]: # (---------------------------------------------------------------------------------------------)
