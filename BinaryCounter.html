@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        html,
+        body {
+            background-color: rgb(211, 81, 98);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: white;
+            font-family: monospace;
+        }
+        
+        .binary-dots-container {
+            text-align: center;
+        }
+        
+        .binary-dots-number {
+            font-size: 20px;
+        }
+        
+        .binary-dots-number.running {
+            animation: pulse 0.25s linear alternate infinite;
+        }
+        
+        @keyframes pulse {
+            from {
+                opacity: 0;
+            }
+            20% {
+                opacity: 1;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .binary-dot {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border: 1px solid white;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-radius: 50%;
+            margin: 5px -3px;
+            position: relative;
+        }
+        
+        .binary-dot:last-of-type {
+            border-right-color: white;
+        }
+        
+        .binary-dot:first-of-type {
+            border-left-color: white;
+        }
+        
+        .binary-dot::after {
+            content: '';
+            background-color: white;
+            width: 11px;
+            height: 11px;
+            display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transform: rotateX(90deg);
+            transition: all 0.1s ease-in-out;
+        }
+        
+        .binary-dot:nth-child(odd)::after {
+            background-color: red;
+            transform: rotateY(90deg);
+        }
+        
+        .binary-dot.on::after {
+            transform: none;
+        }
+    </style>
+</head>
+
+<body style="text-align:center">
+    <h1>Binary Counter</h1>
+    <p>COUNTS</p>
+    <div id="counter">
+    </div>
+
+    <script>
+        var dots = [],
+            dotsContainer = document.createElement('div'),
+            numberDisplay = document.createElement('div'),
+            counter = 0b0;
+
+        dotsContainer.classList.add('binary-dots-container');
+
+        numberDisplay.classList.add('binary-dots-number');
+
+        for (var i = 0; i < 8; i++) {
+            var d = document.createElement('span');
+            d.classList.add('binary-dot');
+            dots.push(d);
+            dotsContainer.appendChild(d);
+        }
+
+        dotsContainer.appendChild(numberDisplay);
+        document.body.appendChild(dotsContainer);
+
+        function update() {
+            numberDisplay.textContent = counter;
+            for (var i = 0; i < dots.length; i++) {
+                var d = dots[i];
+                var n = Math.pow(2, i);
+                if (n & counter)
+                    d.classList.add('on');
+                else
+                    d.classList.remove('on');
+            }
+            counter++;
+            if (counter >= Math.pow(2, dots.length))
+                counter = 0;
+        }
+
+        update();
+        numberDisplay.classList.add('running');
+        setInterval(update, 500);
+    </script>
+</body>
+
+</html>
