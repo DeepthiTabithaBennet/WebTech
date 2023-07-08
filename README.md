@@ -132,34 +132,15 @@ _(Click to Expand)_
 
 [//]: # (---------------------------------------------------------------------------------------------)
 
-#### 6. PACKAGES, ACCESS SPECIFIERS & INTERFACES
-_(Click to Expand)_
+#### 7. EXTENSIBLE MARKUP LANGUAGE (XML)
 
-<details>
-<summary> a) Packages </summary>
-<p> 
-
-  * Java Files - [Addition.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/PackageCreation/src/Calculator/Addition.java), [Subtraction.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/PackageCreation/src/Calculator/Subtraction.java), [Multiplication.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/PackageCreation/src/Calculator/Multiplication.java), [Division.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/PackageCreation/src/Calculator/Division.java), [Modulo.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/PackageCreation/src/Calculator/Modulo.java), [Main](https://github.com/DeepthiTabithaBennet/Java/blob/main/PackageCreation/src/PackageCalculator.java)
- 
-  * Project Folder - [PackageCreation](https://github.com/DeepthiTabithaBennet/Java/tree/main/PackageCreation)
-
- </p>
-</details>
-
-<details>
-<summary> b) Interface / Multiple Inheritance </summary>
-<p> 
-
-  * Java File - [Proficiency.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/Proficiency.java)
-
- </p>
-</details>
+  * Creating Business Cards - [BusinessCard.xml](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/BusinessCard.xml)
 
 -----
 
 [//]: # (---------------------------------------------------------------------------------------------)
 
-#### 7. STREAMS
+#### 8. Java Database Connectivity (JDBC)
 
   * Java File - [StreamsDemo.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/Streams/src/StreamsDemo.java)
  
