@@ -1,0 +1,58 @@
+<?xml version = "1.0"?>
+
+<?xml-stylesheet type = "text/css" href = "businesscard.css"?>
+
+<BusinessCards>
+    <BusinessCard>
+        <Name>DEEPTHI</Name>
+        <phone type= "mobile">mobile : 1234567890</phone>
+        <phone type= "work">work : 0987654321</phone>
+        <phone type= "fax">fax : 1234567890</phone>
+        <email>email : deepthi@abc.com</email>
+    </BusinessCard>
+
+    <BusinessCard>
+        <Name>PRIYA</Name>
+        <phone type= "mobile">mobile : 0987654321</phone>
+        <phone type= "work">work : 1234567890</phone>
+        <phone type= "fax">fax : 0987654321</phone>
+        <email>email : priya@abc.com</email>
+    </BusinessCard>
+</BusinessCards>
+
+businesscard.css
+BusinessCard{
+    background-color: yellow;
+    border: 1px violet;
+    width: 500px;
+    padding: 10pt;
+    margin: 40px;
+    text-align: center;
+    display: block;
+}
+
+Name{
+    color: red;
+    font-weight: bold;
+    font-size: 130%;
+    text-align: center;
+    display: block;
+   
+}
+
+phone{
+    color: blue;
+    font-weight: bold;
+    font-size: 130%;
+    text-align: center;
+    display: block;
+   
+}
+
+email{
+    color: green;
+    font-weight: bold;
+    font-size: 130%;
+    text-align: center;
+    display: block;
+}
