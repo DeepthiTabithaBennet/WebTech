@@ -26,9 +26,9 @@
 
 #### 2. ANIMATIONS, TRANSITIONS & FILTERS
 
-  * Animation - []()
-  * Transition  - 
-  * Filter - 
+  * Animation - [Click Here](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_animation)
+  * Transition  - [Click Here](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_transition-duration)
+  * Filter - [Click Here](https://www.w3schools.com/cssref/css3_pr_filter.php)
 
 -----
 
