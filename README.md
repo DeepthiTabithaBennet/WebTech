@@ -143,19 +143,9 @@ _(Click to Expand)_
 
 #### 8. Java Database Connectivity (JDBC)
 
-  * Java File - [StreamsDemo.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/Streams/src/StreamsDemo.java)
+  * Program Files - [index.jsp](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JDBC_student/web/index.jsp), [update.jsp](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JDBC_student/web/update.jsp), [delete.jsp](https://github.com/DeepthiTabithaBennet/WebTech/blob/main/JDBC_student/web/delete.jsp)
  
-  * Program Folder - [Streams](https://github.com/DeepthiTabithaBennet/Java/tree/main/Streams)
-
------
-
-[//]: # (---------------------------------------------------------------------------------------------)
-
-#### 8. JDBC
-
-  * Java File - [JDBC_Demo.java](https://github.com/DeepthiTabithaBennet/Java/blob/main/JDBC_Demo/src/jdbc_demo/JDBC_Demo.java)
- 
-  * Program Folder - [JDBC_Demo](https://github.com/DeepthiTabithaBennet/Java/tree/main/JDBC_Demo)
+  * Project Folder - [JDBC_student](https://github.com/DeepthiTabithaBennet/WebTech/tree/main/JDBC_student)
 
 -----
 
